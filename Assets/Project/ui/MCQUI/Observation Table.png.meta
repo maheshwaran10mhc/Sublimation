@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 76104f75867647444a1749dc26ba36ad
+guid: 16b94b197f75dcc45aa7f6c38d75d59e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,23 +136,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: question panel 1_0
+      name: Observation Table_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 13
-        width: 1903
-        height: 317
+        x: 48
+        y: 73
+        width: 4187
+        height: 933
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 168, y: 61, z: 215, w: 81}
+      border: {x: 73, y: 92, z: 151, w: 40}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89155223266bf4e47bfe00b6a7da34a1
-      internalID: 2852763
+      spriteID: fb211c2b0e5f0c84fb93f8b0c4d87420
+      internalID: 666328228
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9b56dd1e661a72744ba54b61342954d9
+    spriteID: 18474c12f79977e409c679e5c3929526
     internalID: 0
     vertices: []
     indices: 
@@ -169,9 +169,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      question panel 1_0: 2852763
+      Observation Table_0: 666328228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
