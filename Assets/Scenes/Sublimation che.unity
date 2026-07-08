@@ -10186,7 +10186,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742037450}
   m_LocalRotation: {x: -0, y: 0.9938308, z: -0, w: -0.11090673}
-  m_LocalPosition: {x: 0, y: 0, z: 0.2576}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2564}
   m_LocalScale: {x: 0.0020000003, y: 0.002, z: 0.0020000003}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10196,7 +10196,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 192.735, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1207.5127, y: -832.7475}
+  m_AnchoredPosition: {x: -1207.5084, y: -832.76965}
   m_SizeDelta: {x: 79.0281, y: 43.1553}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742037453
@@ -13396,7 +13396,7 @@ GameObject:
   - component: {fileID: 941282718}
   - component: {fileID: 941282717}
   m_Layer: 5
-  m_Name: conclution
+  m_Name: conclution panal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21845,7 +21845,7 @@ GameObject:
   - component: {fileID: 1606177150}
   - component: {fileID: 1606177152}
   m_Layer: 5
-  m_Name: Drop
+  m_Name: Drop down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23750,7 +23750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1732284770}
   m_Layer: 0
-  m_Name: 20 animi
+  m_Name: 20 point for animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
