@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class SlideUIController : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class SlideUIController : MonoBehaviour
         public Vector2 anchorMax;
         public Vector2 pivot = new Vector2(0.5f, 0.5f);
         // --------------------------------------------
+        public bool preserveAspect = true;
     }
 
     [Header("References")]
@@ -38,9 +40,15 @@ public class SlideUIController : MonoBehaviour
     public List<PageUIData> pageUIData = new List<PageUIData>();
 
     private int lastPage = -1;
+    private Image commonImage;
+
+
 
     void Start()
     {
+        if (commonImageRect != null)
+            commonImage = commonImageRect.GetComponent<Image>();
+
         ApplyDefaultRectSettings();
         UpdateUI();
     }
@@ -98,6 +106,10 @@ public class SlideUIController : MonoBehaviour
 
             commonImageRect.SetSizeWithCurrentAnchors(
                 RectTransform.Axis.Vertical, data.height);
+        }
+        if (commonImage != null)
+        {
+            commonImage.preserveAspect = data.preserveAspect;
         }
     }
 }
