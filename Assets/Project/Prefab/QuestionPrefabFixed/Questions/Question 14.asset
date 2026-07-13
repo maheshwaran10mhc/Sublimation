@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d01fd2d64a9249049aaa77d5c12a82fe, type: 3}
   m_Name: Question 14
   m_EditorClassIdentifier: 
-  questionText: More than one answer is correct. Which of the following substances
-    can also show sublimation upon heating?
+  questionText: Which of the following substances can also show sublimation upon
+    heating?
   referenceImage: {fileID: 0}
   explanationText: The substances that undergo sublimation upon heating are camphor,
     naphthalene, and iodine.
@@ -21,5 +21,5 @@ MonoBehaviour:
   - 'lodine '
   - Naphthalene
   - Sulphur
-  - Camphor
-  correctOptionIndex: 0
+  - All of above
+  correctOptionIndex: 3
